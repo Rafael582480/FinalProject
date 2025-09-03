@@ -17,9 +17,13 @@ function add() {
     p.textContent = text_list
 
     const button = document.createElement("button")
-    button.textContent = "X"
-
     const div = document.createElement("div")
+
+    button.textContent = "X"
+    button.addEventListener("click", function () {
+        div.remove()   
+    })
+
     div.className = "div_list"
     div.appendChild(p)
     div.appendChild(button)
