@@ -1,0 +1,85 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Main {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
+    background-color: rgb(220, 248, 239);
+    padding: 2rem;
+}
+
+.events input {
+    padding: 0.5rem;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.events button {
+    padding: 0.5rem;
+    width: 70px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(230, 73, 73);
+    color: white;
+    transition: 500ms;
+}
+
+#Btn-Add {
+    background-color: rgb(32, 180, 32);
+}
+
+#Btn-Add:hover {
+    cursor: pointer;
+    background-color: rgb(25, 168, 25);
+}
+
+.events button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.div_list {
+    padding: 0;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.div_list button {
+    background-color: rgb(216, 45, 45);
+    width: 70px;
+    color: white;
+    border: 1px solid black;
+    border-left: none;
+    height: 100%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 2rem;
+}
+
+.div_list button:hover {
+    transition: 500ms;
+    cursor: pointer;
+    background-color: red;
+}
+
+.div_list p {
+    border: 1px solid black;
+    width: 100%;
+    height: 75%;
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 2rem;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
