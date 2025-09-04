@@ -1,6 +1,7 @@
 // começando
 let btn_add = document.querySelector("#Btn-Add")
 let btn_dell = document.querySelector("#Btn-Dell")
+let contagem = 0
 
 btn_add.addEventListener("click", add)
 btn_dell.addEventListener("click", dell)
@@ -12,6 +13,8 @@ function add() {
     if (text_list === "") {
         return
     }
+
+    contagem++
 
     const p = document.createElement("p")
     p.textContent = text_list
@@ -25,6 +28,7 @@ function add() {
     })
 
     div.className = "div_list"
+    div.textContent = contagem
     div.appendChild(p)
     div.appendChild(button)
 
