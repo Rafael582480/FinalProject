@@ -37,6 +37,6 @@ function add() {
 
 function dell() {
     let listas = document.querySelector("#lista")
-
+    contagem = 0
     listas.innerHTML = ""
 }
